@@ -1,0 +1,150 @@
+<html>
+<style>
+    ::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 6px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+
+    ::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        background: #9c9a9a;
+    }
+
+    ::-webkit-scrollbar-track {/*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+        border-radius: 10px;
+        background: #EDEDED;
+    }
+
+    .LBubble-container{
+        width:100%; float: left; margin:6px 0;
+    }
+    .LBubble p{
+        float: left; position: relative; margin: 0;
+    }
+    .LBubble .msg{
+        word-break: break-word;
+        border: 1px solid #00b6b6;  
+        background-color: #f8fdfc; 
+        padding: 5px 8px;
+        display: inline-block;
+        border-radius: 7px;
+        margin-left:10px;
+    }
+    .LBubble .bottomLevel{  
+        position: absolute;  
+        top: 6px;  
+        left: 1px;  
+        border-top: 10px solid #00b6b6;  
+        border-left: 10px solid transparent;  
+    }  
+    .LBubble .topLevel{  
+        position: absolute;  
+        top: 7px;  
+        left: 3.5px;  
+        border-top: 10px solid #f8fdfc;  
+        border-left: 10px solid transparent;  
+        z-index: 100;  
+    }
+
+    .RBubble-container{
+        width:100%; float: right; margin:6px 0;
+    }
+    .RBubble p{float: right; position: relative; margin: 0;}
+    .RBubble .msg{
+        word-break: break-word;
+        border: 1px solid #00b6b6;  
+        background-color: #f8fdfc; 
+        padding: 5px 8px;
+        display: inline-block;
+        border-radius: 7px;
+        margin-right:10px;
+    }
+    .RBubble .bottomLevel{  
+        position: absolute;  
+        bottom: 6px;  
+        right: 1px;  
+        border-bottom: 10px solid #00b6b6;  
+        border-right: 10px solid transparent;  
+    }  
+    .RBubble .topLevel{  
+        position: absolute;  
+        bottom: 7px;  
+        right: 3.5px;  
+        border-bottom: 10px solid #f8fdfc;  
+        border-right: 10px solid transparent;  
+        z-index: 100;  
+    }  
+</style>
+<script type="text/javascript">
+    window.onload = function(){
+        var div = document.getElementById('scrolld');
+        div.scrollTop = div.scrollHeight;
+    };
+
+</script>
+<body id="scrolld" style="font-family: Sans-serif; background-color: #404040; font-size: 15px; font-weight:500; float: initial;">
+        <!-- <div class="LBubble-container">
+            <div class="LBubble">
+                    <p>
+                        <span class="msg"><strong style="font-family:cursive,'Microsoft Yahei'">罗旭川:</strong>你好啊哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</span>
+                        <span class="bottomLevel"></span>
+                        <span class="topLevel"></span>
+                    </p>
+                <br>
+            </div>
+        </div>
+
+        <div class="LBubble-container">
+            <div class="LBubble">
+                    <p>
+                        <span class="msg"><strong style="font-family:cursive,'Microsoft Yahei'">罗旭川:</strong>
+                            <br><img style="margin-top: 5px;" src="/home/river/桌面/WeTalk/client/face/myFace/saber1.jpg" width="150" alt="没有图像记录...">
+                        </span>
+                        <span class="bottomLevel"></span>
+                        <span class="topLevel"></span>
+                    </p>
+                <br>
+            </div>
+        </div>
+
+        <div class="RBubble-container">
+            <div class="RBubble">
+                    <p>
+                        <span class="msg">
+                            <img src="../face/myFace/saber2.jpg" width="150" alt="没有图像记录...">
+                        </span>
+                        <span class="bottomLevel"></span>
+                        <span class="topLevel"></span>
+                    </p>
+                <br>
+            </div>
+        </div>
+
+        <div class="RBubble-container">
+            <div class="RBubble">
+                    <p>
+                        <span class="msg">awsl啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</span>
+                        <span class="bottomLevel"></span>
+                        <span class="topLevel"></span>
+                    </p>
+                <br>
+            </div>
+        </div>
+
+        <div class="LBubble-container">
+            <div class="LBubble">
+                    <p>
+                        <span class="msg">Orz</span>
+                        <span class="bottomLevel"></span>
+                        <span class="topLevel"></span>
+                    </p>
+                <br>
+            </div>
+        </div>
+
+</body>
+</html> -->
