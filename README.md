@@ -18,24 +18,23 @@
 
 ## 运行效果展示
 
-<img src="/home/river/桌面/WeTalk/report/1.4.png" width="250px;" />
+<img src="./report/1.4.png" width="600px;" />
 
-<img src="/home/river/桌面/WeTalk/report/face3.png" width="250px;" />
+<img src="./report/face3.png" width="600px;" />
 
-<img src="/home/river/桌面/WeTalk/report/face4.png" width="250px;" />
+<img src="./report/face4.png" width="600px;" />
 
- <img src="/home/river/桌面/WeTalk/report/3.4.1.png"  width="250px;" />
+ <img src="./report/3.4.1.png"  width="600px;" />
+ 
+  <img src="./report/3.4.2.png"  width="600px;" />
 
+ <img src="./report/3.4.3.png" width="600px;" />
 
-​      <img src="/home/river/桌面/WeTalk/report/3.4.2.png" width="250px;" />
+<img src="./report/3.5.0.png" width="600px;"/>
 
- <img src="/home/river/桌面/WeTalk/report/3.4.3.png" width="250px;" />
+<img src="./report/3.5.6.png" width="600px;" />
 
-<img src="/home/river/桌面/WeTalk/report/3.5.0.png" width="250px;"/>
+<img src="./report/3.5.4.png" width="600px;" />
 
-<img src="/home/river/桌面/WeTalk/report/3.5.6.png" width="250px;" />
-
-<img src="/home/river/桌面/WeTalk/report/3.5.4.png" width="250px;" />
-
-<img src="/home/river/桌面/WeTalk/report/5.0.png" width="250px;" />
+<img src="./report/5.0.png" width="600px;" />
 
